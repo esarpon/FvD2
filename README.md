@@ -57,7 +57,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+- Alles is een H2, er zijn geen H3 terwijl die er wel kunnen zijn 
+- Als je het eerste kopje selecteerd word eerst het subkopje genoemd voordat het kopje genoemd word. Ook word het een aantal keer herhaald.
+- 
 </details>
 
 
