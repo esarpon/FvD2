@@ -5,7 +5,43 @@
   box-sizing:border-box;  
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
 
+/* ALL THE FONT-FACES */
+/* Suisse Intel */
+
+/* NORMAL */
+@font-face {
+    font-family: 'Suisse Intl';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:  url("//skknbykim.com/cdn/shop/t/607/assets/SuisseIntl-Regular-WebS.woff2?v=54268344130039410541698667351") format('woff2'),
+          url("//skknbykim.com/cdn/shop/t/607/assets/SuisseIntl-Regular-WebS.woff?v=159950451209265869131698667358") format('woff');
+}
+
+/* BOLD */
+@font-face {
+    font-family: 'Suisse Intl';
+    font-style: bold;
+    font-weight: 600;
+    font-display: swap;
+    src:  url("//skknbykim.com/cdn/shop/t/607/assets/SuisseIntl-SemiBold-WebS.woff2?v=119843760491678067751698667357") format('woff2'),
+          url("//skknbykim.com/cdn/shop/t/607/assets/SuisseIntl-SemiBold-WebS.woff?v=85212317910093379211698667355") format('woff');
+}
+
+/* Suisse Works */
+@font-face {
+    font-family: 'Suisse Works';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:  url("//skknbykim.com/cdn/shop/t/607/assets/SuisseWorks-Regular-WebS.woff2?v=146719093095762998341698667356") format('woff2'),
+          url("//skknbykim.com/cdn/shop/t/607/assets/SuisseWorks-Regular-WebS.woff?v=35467353102852450391698667351") format('woff');
+}
 
 
 
@@ -22,10 +58,94 @@
 
 
 
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
+/* FIRST SECTION: CAROUSEL ON STARTPAGE */
+main > section:first-of-type{
+	/* Hulp van Nina + Sanne -> width is 100% zodat het plaatje niet groter word dan de max van 
+	het scherm. */
+	width: 100%;
+	height: min(150vw, 40em);
+	
+	background-image: url(../images/blackfridayfirst.webp);
+	
+	/* Met hulp van Nina - begrepen */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+main > section:first-of-type h2{
+	margin-left: .67em;
+}
 
+main > section:first-of-type p, a{
+	margin-left: 1em;
+	margin-top: 1em;
+
+	flex-shrink: 0;
+}
+
+main > section:first-of-type a{
+	display: inline-block;
+	background-color: black;
+	margin-right: auto;
+	text-decoration: none;
+	/* text-transform: uppercase; */
+	color: white;
+	padding: 1em;
+}
+
+
+
+/* SECOND SECTION: NEW ARRIVALS */
+main section:nth-of-type(2){
+	margin-top: 2em;
+	margin-left: 1em;
+}
+
+main section:nth-of-type(2) section{
+	display: flex;
+	justify-content: space-between;
+}
+
+main section:nth-of-type(2) ul{
+	margin-top: 1em;
+	display: flex;
+	gap: 1em;
+	overflow-x: auto;
+}
+
+main section:nth-of-type(2) li{
+	list-style: none;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+main section:nth-of-type(2) li section{
+	display: flex;
+	justify-content: space-between;
+}
+
+main section:nth-of-type(2) li a+a{
+	display: block;
+	
+	border: solid black .01em;
+	padding: .75em;
+	
+	color: var(--color-text);
+	text-align: center;
+	/* text-transform: uppercase; */
+	text-decoration: none;
+	
+}
+
+main section:nth-of-type(2) img{
+	width: 29vh;
+	margin-bottom: .5em;
+	order: -1;
+}
