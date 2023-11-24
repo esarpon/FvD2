@@ -59,7 +59,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 - Alles is een H2, er zijn geen H3 terwijl die er wel kunnen zijn 
 - Als je het eerste kopje selecteerd word eerst het subkopje genoemd voordat het kopje genoemd word. Ook word het een aantal keer herhaald.
-- 
+
+   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto van de checklist">
 </details>
 
 
@@ -91,16 +92,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - Tot nu toe is het best goed gegaan met HTML schrijven
+  - Soms wel een beetje moeite met CSS -> vragen en dingen opzoeken
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ELisa: HTML checken
+  Ziggy: Info SVG foutmeldingen
+  Leon: Hoe diep moet je ingaan op de plane
+  Ruben: Vragen over responsiveness toepassen
+
 
 
   ### Verslag van meeting
